@@ -1,0 +1,15 @@
+.tick {
+  padding-right: 20px;
+}
+
+.panel-body {
+  word-wrap: break-word;
+}
+
+.icons {
+margin: 0;
+position: relative;
+float:right;
+transform: translate(10%,-50%);
+
+}

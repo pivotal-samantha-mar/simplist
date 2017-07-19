@@ -1,0 +1,6 @@
+<div class="container">
+  <app-header></app-header>
+  <app-new-task (emitTodos) = "getTodo($event)"></app-new-task>
+  <hr />
+  <app-display-tasks [tasks] = "tasks"></app-display-tasks>
+</div>

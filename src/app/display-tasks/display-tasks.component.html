@@ -1,0 +1,14 @@
+<h2>Tasks</h2><br />
+<div class="panel panel-default" style="width: 500px;" *ngFor = "let task of tasks">
+  <div class="panel-heading">{{task.due}}</div>
+  <div class="panel-body">{{task.task}}</div>
+
+  <div class="panel-footer">
+    <span class= "icons">
+      <img src="/assets/tick.png" class="tick" (click) = onComplete();/>
+      <img src="/assets/trash.png" class="trash" />
+    </span>
+
+  </div>
+
+</div>

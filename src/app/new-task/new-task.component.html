@@ -1,0 +1,11 @@
+
+  <div class="row">
+    <div class="col-md-6" >
+      <input class = "form-control" placeholder = "Task" style="width: 400px;" [(ngModel)] = "todoTask"  />
+      <br />
+      <input class="form-control" placeholder="Due Date" style="width: 400px;" [(ngModel)] = "todoDue" />
+      <br />
+      <button type="button" class="btn btn-success" (click) = "createTask()">Create Task</button>
+      <button type="button" class="btn btn-danger" (click) = "clear()">Clear</button>
+    </div>
+  </div>
